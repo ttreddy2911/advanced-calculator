@@ -44,14 +44,14 @@ class Calculator:
             validate_range(a, self.config.MAX_INPUT_VALUE)
             validate_range(b, self.config.MAX_INPUT_VALUE)
 
-            # Save current state before change (for undo)
+            # Save state before performing operation (for undo)
             self.caretaker.save(self.history.get_all())
 
             # Create operation using Factory
             operation = OperationFactory.create_operation(operation_name)
             result = operation.execute(a, b)
 
-            # Apply precision
+            # Apply rounding precision
             result = round(result, self.config.PRECISION)
 
             # Create calculation record
@@ -60,7 +60,7 @@ class Calculator:
             # Add to history
             self.history.add(calculation)
 
-            # Log
+            # Log operation
             self.logger.log_info(
                 f"{operation_name}({a}, {b}) = {result}"
             )
@@ -139,3 +139,102 @@ class AutoSaveObserver:
     def update(self, calculation):
         if self.config.AUTO_SAVE:
             self.history.save_to_csv(self.config.HISTORY_FILE)
+
+
+# ==========================
+# REPL (Command Line Interface)
+# ==========================
+
+def start_repl():
+    calculator = Calculator()
+
+    # Register Observers
+    calculator.register_observer(LoggingObserver(calculator.logger))
+    calculator.register_observer(
+        AutoSaveObserver(calculator.history, calculator.config)
+    )
+
+    print("\nAdvanced Calculator Started!")
+    print("Type 'help' to see available commands.\n")
+
+    while True:
+        try:
+            user_input = input(">> ").strip()
+
+            if not user_input:
+                continue
+
+            parts = user_input.split()
+            command = parts[0].lower()
+
+            # Exit
+            if command == "exit":
+                print("Exiting calculator. Goodbye!")
+                break
+
+            # Help
+            elif command == "help":
+                print("""
+Available Commands:
+add, subtract, multiply, divide
+power, root, modulus, int_divide
+percent, abs_diff
+history - Show calculation history
+undo - Undo last operation
+redo - Redo last undone operation
+clear - Clear history
+save - Save history to file
+load - Load history from file
+help - Show this menu
+exit - Exit application
+""")
+
+            # History
+            elif command == "history":
+                history = calculator.get_history()
+                if not history:
+                    print("No history available.")
+                else:
+                    for item in history:
+                        print(item)
+
+            # Undo
+            elif command == "undo":
+                print(calculator.undo())
+
+            # Redo
+            elif command == "redo":
+                print(calculator.redo())
+
+            # Clear
+            elif command == "clear":
+                print(calculator.clear_history())
+
+            # Save
+            elif command == "save":
+                print(calculator.save_history())
+
+            # Load
+            elif command == "load":
+                print(calculator.load_history())
+
+            # Arithmetic Operations
+            else:
+                if len(parts) != 3:
+                    print("Invalid format. Use: operation num1 num2")
+                    continue
+
+                operation = command
+                value1 = parts[1]
+                value2 = parts[2]
+
+                result = calculator.perform_operation(operation, value1, value2)
+                print(f"Result: {result}")
+
+        except Exception as e:
+            print(f"Error: {e}")
+
+
+# Run REPL if file executed directly
+if __name__ == "__main__":
+    start_repl()
