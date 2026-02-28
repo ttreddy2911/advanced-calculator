@@ -7,6 +7,9 @@ from app.calculator_config import CalculatorConfig
 from app.logger import CalculatorLogger
 from app.exceptions import OperationError, ValidationError, HistoryError
 
+from colorama import Fore, Style, init
+init(autoreset=True)
+
 
 class Calculator:
     """
@@ -154,7 +157,7 @@ def start_repl():
         AutoSaveObserver(calculator.history, calculator.config)
     )
 
-    print("\nAdvanced Calculator Started!")
+    print(Fore.CYAN + "\nAdvanced Calculator Started!")
     print("Type 'help' to see available commands.\n")
 
     while True:
@@ -229,10 +232,10 @@ exit - Exit application
                 value2 = parts[2]
 
                 result = calculator.perform_operation(operation, value1, value2)
-                print(f"Result: {result}")
+                print(Fore.GREEN + f"Result: {result}")
 
         except Exception as e:
-            print(f"Error: {e}")
+            print(Fore.RED + f"Error: {e}")
 
 
 # Run REPL if file executed directly
