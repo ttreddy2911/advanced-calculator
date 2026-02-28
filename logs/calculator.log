@@ -1,0 +1,120 @@
+2026-02-27 23:40:48,290 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,298 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:40:48,306 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,321 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,329 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:40:48,341 - ERROR - Operation 'invalid' is not supported.
+2026-02-27 23:40:48,347 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:40:48,361 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,375 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,383 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,430 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:40:48,480 - ERROR - Division by zero is not allowed.
+2026-02-27 23:40:48,486 - ERROR - Even root of negative number is not allowed.
+2026-02-27 23:43:50,744 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,776 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:43:50,811 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,856 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,867 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:43:50,899 - ERROR - Operation 'invalid' is not supported.
+2026-02-27 23:43:50,918 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:43:50,940 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,965 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,989 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:50,996 - INFO - add(1.0, 2.0) = 3.0
+2026-02-27 23:43:50,997 - INFO - multiply(2.0, 3.0) = 6.0
+2026-02-27 23:43:51,020 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:43:51,053 - INFO - add(10.0, 5.0) = 15.0
+2026-02-27 23:43:51,069 - ERROR - Division by zero is not allowed.
+2026-02-27 23:43:51,078 - ERROR - Even root of negative number is not allowed.
+2026-02-27 23:45:55,786 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,796 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:45:55,802 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,812 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,826 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:45:55,834 - ERROR - Operation 'invalid' is not supported.
+2026-02-27 23:45:55,841 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:45:55,848 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,858 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,885 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,892 - INFO - add(1.0, 2.0) = 3.0
+2026-02-27 23:45:55,892 - INFO - multiply(2.0, 3.0) = 6.0
+2026-02-27 23:45:55,907 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:45:55,944 - INFO - add(10.0, 5.0) = 15.0
+2026-02-27 23:45:55,960 - ERROR - Division by zero is not allowed.
+2026-02-27 23:45:55,967 - ERROR - Even root of negative number is not allowed.
+2026-02-27 23:45:55,987 - INFO - add(2.0, 3.0) = 5.0
+2026-02-27 23:45:55,987 - INFO - Observer Log: add 2.0, 3.0 = 5.0
+2026-02-27 23:48:02,382 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,395 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:48:02,411 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,418 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,425 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:48:02,432 - ERROR - Operation 'invalid' is not supported.
+2026-02-27 23:48:02,442 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:48:02,453 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,463 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,491 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,495 - INFO - add(1.0, 2.0) = 3.0
+2026-02-27 23:48:02,496 - INFO - multiply(2.0, 3.0) = 6.0
+2026-02-27 23:48:02,506 - INFO - add(1.0, 1.0) = 2.0
+2026-02-27 23:48:02,506 - INFO - add(2.0, 2.0) = 4.0
+2026-02-27 23:48:02,527 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:48:02,567 - INFO - add(10.0, 5.0) = 15.0
+2026-02-27 23:48:02,591 - INFO - add(3.0, 3.0) = 6.0
+2026-02-27 23:48:02,598 - ERROR - Division by zero is not allowed.
+2026-02-27 23:48:02,603 - ERROR - Even root of negative number is not allowed.
+2026-02-27 23:48:02,645 - INFO - add(2.0, 3.0) = 5.0
+2026-02-27 23:48:02,647 - INFO - Observer Log: add 2.0, 3.0 = 5.0
+2026-02-27 23:51:22,863 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:22,871 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:51:22,879 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:22,893 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:22,900 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:51:22,912 - ERROR - Operation 'invalid' is not supported.
+2026-02-27 23:51:22,925 - ERROR - Invalid input 'abc'. Please enter a numeric value.
+2026-02-27 23:51:22,937 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:22,960 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:22,996 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:23,013 - INFO - add(1.0, 2.0) = 3.0
+2026-02-27 23:51:23,013 - INFO - multiply(2.0, 3.0) = 6.0
+2026-02-27 23:51:23,030 - INFO - add(1.0, 1.0) = 2.0
+2026-02-27 23:51:23,030 - INFO - add(2.0, 2.0) = 4.0
+2026-02-27 23:51:23,054 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:51:23,100 - INFO - add(10.0, 5.0) = 15.0
+2026-02-27 23:51:23,122 - INFO - add(8.0, 2.0) = 10.0
+2026-02-27 23:51:23,170 - INFO - add(3.0, 3.0) = 6.0
+2026-02-27 23:51:23,178 - INFO - add(1.0, 1.0) = 2.0
+2026-02-27 23:51:23,186 - INFO - add(2.0, 2.0) = 4.0
+2026-02-27 23:51:23,195 - ERROR - Division by zero is not allowed.
+2026-02-27 23:51:23,200 - ERROR - Even root of negative number is not allowed.
+2026-02-27 23:51:23,221 - INFO - add(2.0, 3.0) = 5.0
+2026-02-27 23:51:23,221 - INFO - Observer Log: add 2.0, 3.0 = 5.0
+2026-02-27 23:56:28,752 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:56:28,752 - INFO - Observer Log: add 5.0, 3.0 = 8.0
+2026-02-27 23:56:43,500 - INFO - power(2.0, 4.0) = 16.0
+2026-02-27 23:56:43,501 - INFO - Observer Log: power 2.0, 4.0 = 16.0
+2026-02-27 23:57:20,086 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:57:20,086 - INFO - Observer Log: add 5.0, 3.0 = 8.0
+2026-02-27 23:57:20,116 - INFO - subtract(10.0, 4.0) = 6.0
+2026-02-27 23:57:20,116 - INFO - Observer Log: subtract 10.0, 4.0 = 6.0
+2026-02-27 23:57:20,122 - INFO - multiply(6.0, 7.0) = 42.0
+2026-02-27 23:57:20,122 - INFO - Observer Log: multiply 6.0, 7.0 = 42.0
+2026-02-27 23:57:20,133 - INFO - divide(10.0, 2.0) = 5.0
+2026-02-27 23:57:20,133 - INFO - Observer Log: divide 10.0, 2.0 = 5.0
+2026-02-27 23:57:20,138 - INFO - power(2.0, 4.0) = 16.0
+2026-02-27 23:57:20,138 - INFO - Observer Log: power 2.0, 4.0 = 16.0
+2026-02-27 23:57:20,144 - INFO - root(9.0, 2.0) = 3.0
+2026-02-27 23:57:20,145 - INFO - Observer Log: root 9.0, 2.0 = 3.0
+2026-02-27 23:57:20,154 - INFO - modulus(10.0, 3.0) = 1.0
+2026-02-27 23:57:20,155 - INFO - Observer Log: modulus 10.0, 3.0 = 1.0
+2026-02-27 23:57:20,167 - INFO - int_divide(10.0, 3.0) = 3.0
+2026-02-27 23:57:20,167 - INFO - Observer Log: int_divide 10.0, 3.0 = 3.0
+2026-02-27 23:57:20,171 - INFO - percent(50.0, 200.0) = 25.0
+2026-02-27 23:57:20,172 - INFO - Observer Log: percent 50.0, 200.0 = 25.0
+2026-02-27 23:57:21,223 - INFO - abs_diff(5.0, 9.0) = 4.0
+2026-02-27 23:57:21,224 - INFO - Observer Log: abs_diff 5.0, 9.0 = 4.0
+2026-02-27 23:57:51,185 - ERROR - Failed to load history: No columns to parse from file
+2026-02-27 23:59:47,550 - INFO - add(5.0, 3.0) = 8.0
+2026-02-27 23:59:47,551 - INFO - Observer Log: add 5.0, 3.0 = 8.0
+2026-02-28 11:12:22,424 - ERROR - Invalid input 'add'. Please enter a numeric value.
